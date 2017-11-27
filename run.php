@@ -1,4 +1,9 @@
 <?php
+/*
+    https://github.com/nee48/bomsmsmthrmall/
+    Made by Handika Pratama
+*/
+
 include 'func.php';
 
 $init = new Bom();
