@@ -3,7 +3,7 @@ error_reporting(0);
 
 Class Bom {
 
-	public $no;
+    public $no;
     public $email;
     public $pass;
 
@@ -44,14 +44,6 @@ Class Bom {
         }
     }
 
-
-    // public function Profile()
-    // {
-    // 	$send = json_decode(file_get_contents("https://randomuser.me/api/"), true);
-    //     foreach ($send['results'] as $profile) {
-    //     	echo $profile['gender'];
-    //     }
-    // }
 
     public function Login($email,$pass)
     {
